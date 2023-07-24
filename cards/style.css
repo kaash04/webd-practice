@@ -32,6 +32,8 @@
     gap: 1rem;
     transition: transform 100ms;
     overflow: hidden;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
 }
 .cardParent:hover{
     transform: scale(1.1);
