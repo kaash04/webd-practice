@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cardParent{
+    height: 32rem;
+    width: 24rem;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    transition: transform 100ms;
+    overflow: hidden;
+}
+.cardParent:hover{
+    transform: scale(1.1);
+}
+
+.qr{
+    height: 70%;
+    width: 90%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.textArea{
+    text-align: center;
+}
+
+.head{
+    padding: 0 0.3rem 0 0.3rem;
+}
+
+.text{
+    margin-top: 0.5rem;
+    padding: 0 0.3rem 0 0.3rem;
+}
+
+.qr2{
+    width: 100%;
+    height: 35%;
+}
+
+.subscription{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6d9ef860;
+    padding: 0 1rem 0 1rem;
+    border-radius: 0.5rem;
+}
+
+.player{
+    height: 80%;
+}
+
+.left{
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card2{
+    gap: 1.4rem;
+}
+
+.pay{
+    height: 10%;
+    width: 90%;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #282e71;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 10px 3px #565658;
+}
+
+.cancel{
+    font-size: 0.9rem;
+}
