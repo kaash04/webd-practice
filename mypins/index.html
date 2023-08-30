@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PINS</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-size: 1.05rem;
+        background-color: #121212;
+      }
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3.5rem;
+      }
+      .box {
+        height: 4rem;
+        width: 15rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid rgb(195, 234, 219);
+        border-radius: 6px;
+        transition: 500ms all;
+      }
+      .box:hover{
+        background-color: #ffffff;
+        color: #121212;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="https://practice.geeksforgeeks.org/problem-of-the-day"
+        ><div class="box">GeeksForGeeks POTD</div></a
+      >
+
+      <a href="https://www.codechef.com/contests"
+        ><div class="box">CodeChef Contests</div></a
+      >
+
+      <a href="https://www.codechef.com/users/kash04"
+        ><div class="box">CodeChef Profile</div></a
+      >
+
+      <a href="https://www.codingninjas.com/studio/contests"
+        ><div class="box">Coding Ninjas Contests</div></a
+      >
+    </div>
+  </body>
+</html>
